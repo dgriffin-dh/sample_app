@@ -18,15 +18,20 @@ group :test do
 	gem 'capybara', '2.1.0'
 	gem 'cucumber-rails', '1.4.0', :require => false
 	gem 'database_cleaner', github: 'bmabey/database_cleaner'
+	gem 'factory_girl_rails', '4.2.1'
+
+	# for OSX
+	gem 'growl'
+	# for Linux
+	gem 'libnotify'
 end
 
 	gem 'sass-rails',   '4.0.1'
+	gem 'uglifier', '2.1.1'	
 	gem 'coffee-rails', '4.0.1'
 	gem 'jquery-rails'
 	gem 'turbolinks', '1.1.1'
-	gem 'uglifier', '2.1.1'
 	gem 'jbuilder', '1.0.2'
-	gem 'factory_girl_rails', '4.2.1'
 
 
 group :doc do
@@ -38,17 +43,5 @@ group :production do
 	gem 'rails_12factor', '0.0.2'
 end
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
-# Use unicorn as the app server
 gem 'unicorn'
 
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
