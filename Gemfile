@@ -5,6 +5,8 @@ gem 'activeresource'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby'
 gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :development, :test do
 	gem 'sqlite3', '1.3.8'
