@@ -126,14 +126,15 @@
 /* forms */
 
   input, textarea, select, .uneditable-input {
-    text-align: center;
     border: 1px solid #bbb;
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
     margin-bottom: 15px;
     @include box_sizing;
   }
   label {
-    width: 50%;
+    margin-left: 10%;
+    width: 80%;
   }
 
   input {
