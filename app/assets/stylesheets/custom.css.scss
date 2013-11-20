@@ -127,14 +127,14 @@
 
   input, textarea, select, .uneditable-input {
     border: 1px solid #bbb;
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
+    /* margin-left: 10%; */
     margin-bottom: 15px;
     @include box_sizing;
   }
   label {
-    margin-left: 10%;
-    width: 80%;
+    /* margin-left: 10%;
+    width: 80%; */
   }
 
   input {
